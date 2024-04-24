@@ -1,8 +1,10 @@
-import { Field, Components } from './types.ts';
+import { Field, Components, Themes } from './types.ts';
 import Input from './components/Input/Input.tsx';
 import Radio from './components/Radio/Radio.tsx';
 import Select from './components/Select/Select.tsx';
 import React from 'react';
+
+export const FORM_THEME: Themes = Themes.Default;
 
 export const config: Field[] = [
   {label: 'First name', name: 'firstName', type: Components.Input, options: {required: false}},

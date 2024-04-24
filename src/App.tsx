@@ -19,7 +19,7 @@ function App(): React.ReactElement {
             </div>
           </div>
         </div>
-        <div className="bg-gray-100">
+        <div className="bg-base text-content">
           <div className="mx-auto max-w-7xl py-12 px-2 sm:px-6 lg:px-8">
             <div className="mx-auto max-w-4xl">
               <Outlet/>

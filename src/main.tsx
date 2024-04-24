@@ -5,8 +5,10 @@ import App from './App.tsx'
 import RecruitmentForm from './pages/RecruitmentForm.tsx';
 import Summary from './pages/Summary.tsx';
 import NotFound from './pages/NotFound.tsx';
-import { config } from './configForm.ts';
-import './index.css'
+import { config, FORM_THEME } from './configForm.ts';
+import './index.css';
+
+document.querySelector("html")!.setAttribute("data-theme", FORM_THEME);
 
 const router = createBrowserRouter([
   {

@@ -7,7 +7,15 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        base: 'var(--color-base)',
+        primary: 'var(--color-primary)',
+        secondary: 'var(--color-secondary)',
+        content: 'var(--color-content)',
+      }
+    },
+
   },
   plugins: [formsPlugin],
 }

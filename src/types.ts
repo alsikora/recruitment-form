@@ -21,3 +21,10 @@ export type Form = {
   lastName: string,
   age: string,
 }
+
+export enum Themes {
+  Green = 'green',
+  Default = '',
+  Purple = 'purple',
+  Yellow = 'yellow',
+}
