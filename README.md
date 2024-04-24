@@ -22,3 +22,9 @@ It also offers strong TypeScript support for type safety. React Hook Form boosts
 ### TailwindCSS
 TailwindCSS is a utility-first CSS framework that accelerates development by allowing developers to apply styles directly within HTML, eliminating frequent context switching. This framework ensures design consistency and scalability through reusable utility classes, reducing style inconsistencies and simplifying maintenance. TailwindCSS is highly customizable, enabling developers to tailor utility classes to project-specific needs within the framework's configuration. It also supports responsive design out-of-the-box, facilitating the creation of adaptable interfaces across different devices. 
 TailwindCSS enhances productivity, promotes design consistency, and offers flexibility, making it a powerful tool for modern web development.
+
+## Summary
+
+- The assumption is that the form configuration is performed on another/external screen and passed to the form.
+- Mocked form configuration with CSS theme selection is in the file: `src/configForm.ts`.
+- Several predefined themes are available: DEFAULT, Yellow, Green, and Purple.
